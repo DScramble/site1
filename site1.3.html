@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Set the background color to black */
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background-image: url('your-header-image.png'); /* Update the path to your header image */
+            background-size: cover;
+            border: 2px solid red; /* Add a red border around the header */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .content {
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Add an image tag for your header image -->
+        <img src="GB4nzbpW4AAOydJ.png" alt="wat">
+        <h1>Your Website Name</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="cashapp2.html">ABA</a> <!-- Link to cashapp2.html for the "ABA" tab -->
+        <a href="#">LABA</a>
+        <div class="dropdown">
+            <span>Dropdown</span>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com/shorts/x93ouofMYpg" target="_blank">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Your website content goes here -->
+    <div class="content">
+        <!-- Add an MP4 file here -->
+        <video width="100%" height="auto" controls>
+            <source src="Cryptofish VIP Band.mp4" type="video/mp4"> <!-- Update the path to your MP4 file -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>
