@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('GAJNYP8X0AEFCmE.png'); /* Update the path to your image */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Website Name</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">ABA</a>
+        <a href="#">LABA</a>
+        <div class="dropdown">
+            <span>Dropdown</span>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com/shorts/x93ouofMYpg" target="_blank">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Your website content goes here -->
+
+</body>
+</html>
